@@ -1,0 +1,82 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml:2:11-58
+		INJECTED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml:3:11-69
+	android:versionCode
+		INJECTED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.braintreepayments.api:drop-in:2.0.1] /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/exploded-aar/com.braintreepayments.api/drop-in/2.0.1/AndroidManifest.xml:15:5-24:19
+	android:label
+		ADDED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from [com.braintreepayments.api:drop-in:2.0.1] /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/exploded-aar/com.braintreepayments.api/drop-in/2.0.1/AndroidManifest.xml:16:9-35
+	tools:ignore
+		ADDED from [com.braintreepayments.api:drop-in:2.0.1] /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/exploded-aar/com.braintreepayments.api/drop-in/2.0.1/AndroidManifest.xml:17:9-39
+	android:allowBackup
+		ADDED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml:7:9-45
+	android:theme
+		ADDED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml:9:9-40
+activity#org.commercefactory.braintree.android.SDKActivity
+ADDED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml:10:9-18:20
+	android:label
+		ADDED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml:12:13-45
+	android:name
+		ADDED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml:11:13-40
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml:14:17-68
+	android:name
+		ADDED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml:16:17-76
+	android:name
+		ADDED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.braintreepayments.api:drop-in:2.0.1] /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/exploded-aar/com.braintreepayments.api/drop-in/2.0.1/AndroidManifest.xml:8:5-10:41
+MERGED from [com.braintreepayments:card-form:2.1.0] /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/exploded-aar/com.braintreepayments/card-form/2.1.0/AndroidManifest.xml:8:5-10:41
+	android:targetSdkVersion
+		INJECTED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.braintreepayments.api:drop-in:2.0.1] /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/exploded-aar/com.braintreepayments.api/drop-in/2.0.1/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [com.braintreepayments.api:drop-in:2.0.1] /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/exploded-aar/com.braintreepayments.api/drop-in/2.0.1/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.braintreepayments.api:drop-in:2.0.1] /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/exploded-aar/com.braintreepayments.api/drop-in/2.0.1/AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from [com.braintreepayments.api:drop-in:2.0.1] /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/exploded-aar/com.braintreepayments.api/drop-in/2.0.1/AndroidManifest.xml:13:22-64
+activity#com.braintreepayments.api.BraintreeBrowserSwitchActivity
+ADDED from [com.braintreepayments.api:drop-in:2.0.1] /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/exploded-aar/com.braintreepayments.api/drop-in/2.0.1/AndroidManifest.xml:18:9-93
+	android:name
+		ADDED from [com.braintreepayments.api:drop-in:2.0.1] /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/exploded-aar/com.braintreepayments.api/drop-in/2.0.1/AndroidManifest.xml:18:19-90
+activity#com.paypal.android.sdk.onetouch.core.PayPalOneTouchActivity
+ADDED from [com.braintreepayments.api:drop-in:2.0.1] /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/exploded-aar/com.braintreepayments.api/drop-in/2.0.1/AndroidManifest.xml:19:9-21:75
+	android:theme
+		ADDED from [com.braintreepayments.api:drop-in:2.0.1] /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/exploded-aar/com.braintreepayments.api/drop-in/2.0.1/AndroidManifest.xml:21:13-72
+	android:name
+		ADDED from [com.braintreepayments.api:drop-in:2.0.1] /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/exploded-aar/com.braintreepayments.api/drop-in/2.0.1/AndroidManifest.xml:20:13-87
+activity#com.braintreepayments.api.threedsecure.ThreeDSecureWebViewActivity
+ADDED from [com.braintreepayments.api:drop-in:2.0.1] /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/exploded-aar/com.braintreepayments.api/drop-in/2.0.1/AndroidManifest.xml:22:9-103
+	android:name
+		ADDED from [com.braintreepayments.api:drop-in:2.0.1] /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/exploded-aar/com.braintreepayments.api/drop-in/2.0.1/AndroidManifest.xml:22:19-100
+activity#com.braintreepayments.api.BraintreePaymentActivity
+ADDED from [com.braintreepayments.api:drop-in:2.0.1] /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/exploded-aar/com.braintreepayments.api/drop-in/2.0.1/AndroidManifest.xml:23:9-87
+	android:name
+		ADDED from [com.braintreepayments.api:drop-in:2.0.1] /Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/exploded-aar/com.braintreepayments.api/drop-in/2.0.1/AndroidManifest.xml:23:19-84

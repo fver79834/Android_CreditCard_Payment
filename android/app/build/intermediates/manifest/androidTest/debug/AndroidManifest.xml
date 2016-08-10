@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.commercefactory.braintree.android.test">
+
+    <uses-sdk android:minSdkVersion="18" android:targetSdkVersion="23" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="org.commercefactory.braintree.android"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for org.commercefactory.braintree.android"/>
+</manifest>

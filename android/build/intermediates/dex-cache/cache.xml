@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/slbd/.gradle/caches/modules-2/files-2.1/com.braintreepayments.api/braintree/2.0.1/cf63b0604d3a88719f8da1cd0438917f23722a7f/braintree-2.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="cf63b0604d3a88719f8da1cd0438917f23722a7f">
+        <dex dex="/Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/pre-dexed/debug/braintree-2.0.1-0b4c3fb687ccb583acb5e7cb6d32e7ebf2d2e8a9.jar" />
+    </item>
+    <item
+        jar="/Users/slbd/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="/Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/pre-dexed/debug/httpclient-4.3.6-4bac3c2844a55f919bcbc0377f4dc8f5bb44f7bb.jar" />
+    </item>
+    <item
+        jar="/Users/slbd/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.9/386a4339ffe52d5d63e80f9bed8d2b1d1a418249/android-async-http-1.4.9.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="/Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.9-292ae1f26f8c3f9ecfa1612460c7be67e2d1cda7.jar" />
+    </item>
+    <item
+        jar="/Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/exploded-aar/com.braintreepayments/card-form/2.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fd91333deb86e0a63f81f505d0141e4ef8b58580">
+        <dex dex="/Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/pre-dexed/debug/classes-01eb66c6751d81f1a077f1569babe6bd12e0070f.jar" />
+    </item>
+    <item
+        jar="/Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/exploded-aar/com.braintreepayments.api/drop-in/2.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="513f9354dcaf28b5003d92dc04f8ab9813b6aeaa">
+        <dex dex="/Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/pre-dexed/debug/classes-b6ba94d8f5e30b041ef3392c51eba50583be51ff.jar" />
+    </item>
+
+</items>

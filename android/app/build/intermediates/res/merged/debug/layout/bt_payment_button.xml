@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ViewSwitcher
+        android:id="@+id/bt_payment_method_view_switcher"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bt_payment_method_button_height"
+        android:background="@color/bt_white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3" >
+
+            <ImageButton
+                style="@style/bt_payment_method_app_switch_button"
+                android:id="@+id/bt_paypal_button"
+                android:src="@drawable/bt_logo_paypal"
+                android:contentDescription="@string/bt_pay_with_paypal" />
+
+            <View
+                style="@style/bt_app_switch_button_divider"
+                android:id="@+id/bt_payment_button_divider" />
+
+            <ImageButton
+                style="@style/bt_payment_method_app_switch_button"
+                android:id="@+id/bt_android_pay_button"
+                android:src="@drawable/bt_logo_android_pay"
+                android:contentDescription="@string/bt_pay_with_android_pay" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.braintreepayments.api.dropin.view.SecureLoadingProgressBar
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+
+    </ViewSwitcher>
+</RelativeLayout>
+<!-- From: file:/Users/lkorth/bt/braintree-android/Drop-In/src/main/res/layout/bt_payment_button.xml --><!-- From: file:/Users/slbd/Desktop/sample-11-braintree-android-sdk-sdk-v2/android/app/build/intermediates/exploded-aar/com.braintreepayments.api/drop-in/2.0.1/res/layout/bt_payment_button.xml -->
